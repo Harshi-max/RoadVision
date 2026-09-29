@@ -1,0 +1,9 @@
+authorities:
+  - name: City Roads Maintenance Unit
+    area: default
+    email: maintenance@example.org
+    webhook: https://example.invalid/webhook
+  - name: County Infrastructure Team
+    area: rural
+    email: roads@example.org
+    webhook: https://example.invalid/county

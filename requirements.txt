@@ -1,3 +1,6 @@
 streamlit
 ultralytics
 opencv-python-headless
+PyYAML
+psutil
+pytest

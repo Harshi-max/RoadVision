@@ -1,0 +1,45 @@
+detection:
+  confidence_threshold: 0.70
+  imgsz: 960
+  iou_threshold: 0.45
+  source: video
+  roi_enabled: false
+  min_detection_area: 0.002
+
+tracking:
+  tracker: bytetrack.yaml
+  persist: true
+  max_lost_frames: 10
+  min_track_frames: 2
+
+preprocessing:
+  enabled: false
+  resize: 0
+  normalize: false
+  gaussian_blur: 0
+  brightness: 0
+  contrast: 1.0
+  clahe: false
+  sharpen: false
+
+severity:
+  low_threshold: 0.33
+  medium_threshold: 0.66
+
+ocr:
+  enabled: false
+  sample_every_n_frames: 60
+  min_confidence: 0.4
+
+performance:
+  enabled: true
+  sample_window: 60
+
+location:
+  provider: mock
+  gps_enabled: false
+
+notifications:
+  mode: console
+  email_enabled: false
+  webhook_enabled: false
