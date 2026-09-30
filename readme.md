@@ -271,45 +271,6 @@ Detections are decision support, not verified infrastructure assessments. Valida
 
 ---
 
-## 🗺️ Roadmap
-
-**Phase 1 – Core detection** ✅
-- [x] YOLO detection · [x] ByteTrack · [x] Streamlit UI · [x] Annotated video · [x] Download
-
-**Phase 2 – Analytics**
-- [ ] Image detection
-- [ ] Unique pothole counter
-- [ ] Confidence and timeline charts
-- [ ] CSV / JSON export
-- [ ] Best-frame snapshots
-- [ ] Frame skip and device selection
-
-**Phase 3 – Geospatial**
-- [ ] GPS from `.srt` / `.gpx` / EXIF
-- [ ] Interactive map
-- [ ] Geographic clustering and duplicate merging across videos
-- [ ] Road-condition heatmaps
-
-**Phase 4 – Infrastructure intelligence**
-- [ ] Heuristic severity estimation
-- [ ] PDF / HTML report
-- [ ] Calibrated size estimation
-- [ ] Road-segment scoring and maintenance prioritisation
-- [ ] Historical tracking database
-
-**Phase 5 – Platform**
-- [ ] Docker
-- [ ] REST API (FastAPI)
-- [ ] Mobile capture app
-- [ ] Edge deployment (Jetson / Raspberry Pi, ONNX / TensorRT)
-- [ ] Multi-class road damage (cracks, potholes, patches)
-
-> Tick the boxes as you implement each feature, so the README never claims more than the code does.
-
-```text
-Camera → Detection → GPS → Database → Map → Road-Condition Dashboard
-```
-
 ## 🏗️ Future Production Architecture
 
 ```text
